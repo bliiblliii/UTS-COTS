@@ -1,0 +1,169 @@
+ .header { background: gray; 
+            padding: 15px 10px; 
+            display: flex; 
+            justify-content: space-between; 
+            font-weight: bold; }
+        .toolbar { 
+            background: white; 
+            padding: 10px 20px; 
+            display: flex; }
+        
+        .btn-grup button { 
+            padding: 6px 12px; 
+            margin-right: 5px; 
+            background: white; 
+            border: 1px solid gray; 
+            cursor: pointer; 
+            border-radius: 3px;
+             
+        }
+        .pencarian { 
+            display: flex;
+            margin-left: auto;
+        }
+        .pencarian input { 
+            padding: 6px 10px; 
+            width: 220px; 
+            border: 1px solid grey; 
+            border-right: none; 
+            border-radius: 3px 0 0 3px;  }
+        .pencarian button { 
+            padding: 6px 10px; 
+            background: white; 
+            border: 1px solid grey; 
+            border-radius: 0 3px 3px 0; 
+            cursor: pointer; }
+
+        .container { 
+            display: flex; 
+            padding: 15px; 
+            gap: 15px; }
+
+        .sidebar { 
+            width: 25%; }
+        .judul-sidebar { 
+            background: grey; 
+            color: white; 
+            padding: 10px 15px; 
+            font-weight: bold; }
+        .isi-sidebar { 
+            background: rgb(211, 200, 200); 
+            padding: 12px;}
+        
+        .kotak-surat { 
+            background: white; 
+            padding: 12px; 
+            margin-bottom: 10px; }
+        .surat-atas { 
+            display: flex; 
+            justify-content: space-between; 
+            font-weight: bold; }
+        .surat-tgl { 
+            font-size: 11px; 
+            color:gray;
+            font-weight: normal;}
+        .surat-bawah { 
+            color: gray; 
+            margin-top: 5px; 
+            padding-left: 24px; }
+
+        .konten { width: 60%; }
+        .tab-oren { 
+            background: orangered; 
+            color: white; 
+            padding: 6px 15px; 
+            display: inline-block; 
+            font-weight: bold; }
+        .garis-oren { 
+             border-top: 3px solid orangered;
+             margin-bottom: 15px; }
+        
+        .aksi button { 
+            padding: 6px 12px; 
+            background: white; 
+            border: 1px solid #ccc; 
+            margin-right: 5px; 
+            cursor: pointer; 
+            border-radius: 3px; 
+            margin-bottom: 20px; }
+
+        .kartu-container { 
+            display: flex; 
+            gap: 15px; 
+            margin-bottom: 25px; }
+        .kartu { 
+            flex: 1; 
+            color: white; 
+            display: flex; 
+            flex-direction: column; 
+            border-radius: 3px; 
+            overflow: hidden; }
+        .kartu-body { 
+            padding: 20px; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; }
+        .teks-kartu { 
+            text-align: right; 
+        }
+        .teks-kartu h2 { 
+            font-size: 32px; 
+            margin: 0; 
+        }
+        
+        .kartu-bawah { 
+            background: rgba(243, 247, 247, 0.9); 
+            padding: 10px 15px; display: flex; 
+            justify-content: space-between; 
+            font-size: 12px; 
+            font-weight: bold; 
+            align-items: center; }
+
+        .bg-hijau { background: green; } .bg-hijau .kartu-bawah { color: greenyellow; }
+        .bg-biru { background: blue; }  .bg-biru .kartu-bawah { color: blue; }
+        .bg-merah { background: red; } .bg-merah .kartu-bawah { color: orange }
+
+        .todo-atas { 
+            background: purple; 
+            padding: 12px; 
+            color: white; 
+            font-weight: bold; }
+        .todo-pencarian { 
+            display: flex; 
+            margin-top: 8px; }
+        .todo-pencarian input { 
+            width: 100%; 
+            padding: 8px; 
+            border: none; 
+            border-radius: 3px 0 0 3px; 
+            outline: none; }
+        .todo-pencarian button { 
+            padding: 8px 12px; 
+            border: none; 
+            background: white; 
+            border-radius: 0 3px 3px 0; 
+            cursor: pointer; }
+        .todo-kosong { 
+            background: white; 
+            padding: 35px; 
+            text-align: center; 
+            font-style: italic; 
+            border: 1px solid #ddd; 
+            border-top: none; 
+            color: #555; }
+
+        .icon-sm { 
+            width: 14px; 
+            height: 14px; 
+            vertical-align: middle; 
+            margin-right: 4px; 
+            margin-top: -2px; }
+        .icon-md { 
+            width: 16px; 
+            height: 16px; 
+            vertical-align: middle; 
+            margin-right: 5px; }
+        .icon-lg { 
+            width: 45px; 
+            height: 45px; 
+            opacity: 0.9; }
